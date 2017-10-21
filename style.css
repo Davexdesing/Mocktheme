@@ -1,0 +1,103 @@
+
+/*
+Theme Name: MocksTheme
+Theme URI: http://www.dev.itsolutions.com.ve
+Description: Desing elegant blog, create for big bloggers.We have multidesings.
+Author: Luis Moncada
+Author URI: http://www.itsolutions.com.ve
+Version: 1.0
+
+*/
+
+a:hover{
+	text-decoration: none;
+
+}
+/* menu */
+
+.bg-df{
+	background-color: #fff!important;
+}
+
+.bg-gray{
+	width: 100%;
+	background-color: rgba(31, 31, 31, 1);
+
+}
+
+.nav-item a {
+	color: gray !important;
+}
+.ul-li, .ul-li ul{
+	list-style-type: none;
+}
+.cat-item a{
+	color: rgb(222, 238, 238);
+}
+.cat-item a:hover{
+	color: rgb(157, 168, 168);
+}
+
+.color-claro{
+		color: rgb(222, 238, 238);
+}
+a.color-claro:hover{
+		color: rgb(157, 168, 168)!important;
+}
+
+div.ul-li .textwidget{
+	width: 15rem;
+	color: lightgray;
+}
+/* content */
+.lato{
+	font-family: lato;
+}
+
+.colo-bl{
+	color: black;
+}
+@media (max-width: 400px) {
+	.post{
+		margin-left: -2.7rem;
+	}
+div.ul-li .textwidget{
+	width: 12rem ;
+	color: lightgray;
+}
+
+
+}
+@media (max-width: 319px) {
+	.post{
+		margin-left: -2.7rem;
+	}
+
+div.ul-li .textwidget{
+	width: 10rem ;
+	color: lightgray;
+}
+
+}
+
+blockquote{
+
+	border-left: 5px solid rgba(0, 0, 0, 0.7)
+}
+.menu-item-has-children {
+	position: relative;
+}
+.menu-item-has-children .sub-menu{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	padding: 0;
+	min-width: 150px;
+	background-color: white;
+	text-align: left;
+	box-shadow: 0 3px 3px rgba(0,0,0,.5);
+	left: -8px;
+}
+.menu-item-has-children:hover .sub-menu{
+	display: block;
+}
