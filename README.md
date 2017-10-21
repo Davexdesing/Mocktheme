@@ -1,0 +1,2 @@
+# Mocktheme
+Wordpress theme.
